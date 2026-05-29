@@ -1,4 +1,3 @@
-# signal-processing-experiments
 
 # Signal Processing Experiments
 
