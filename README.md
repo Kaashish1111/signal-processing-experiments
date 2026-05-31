@@ -1,4 +1,4 @@
-# Signal Processing Experiments 📡
+# Signal Processing Experiments 
 
 A growing collection of hands on experiments exploring Digital Signal Processing (DSP), waveform analysis, Fourier concepts, filtering, and biosignal preprocessing using Python.
 
