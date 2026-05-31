@@ -17,6 +17,7 @@ This repository documents my learning journey through DSP fundamentals while exp
 * Harmonic structure and timbre analysis
 * High-pass, low-pass, and band-stop filtering
 * Audio stretching and waveform manipulation
+* Pupil signal processing Experiment 
 * Practical DSP experimentation using Python and Colab
 
 ---
