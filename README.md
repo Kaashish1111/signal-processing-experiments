@@ -1,100 +1,80 @@
+# Signal Processing Experiments 📡
 
-# Signal Processing Experiments
+A growing collection of hands on experiments exploring Digital Signal Processing (DSP), waveform analysis, Fourier concepts, filtering, and biosignal preprocessing using Python.
 
-A collection of Digital Signal Processing (DSP) experiments and exploratory notebooks focused on understanding signals, frequency analysis, filtering, and computational sensing using Python.
-
-This repository documents my learning journey through DSP fundamentals while exploring applications connected to machine learning, human-centered AI, eye tracking, cognitive computing, and behavioral sensing systems.
+This repository documents my learning journey while studying DSP fundamentals through implementation based experiments and Jupyter notebooks.
 
 ---
 
 ## Topics Explored
 
-* Signal generation and visualization
-* Frequency, amplitude, and sampling concepts
-* Sine and cosine signal synthesis
-* Multi-frequency compound signals
-* Spectrum analysis using FFT
-* Harmonic structure and timbre analysis
-* High-pass, low-pass, and band-stop filtering
-* Audio stretching and waveform manipulation
-* Pupil signal processing Experiment 
-* Practical DSP experimentation using Python and Colab
+* Harmonics and waveform generation
+* Square, triangle, and sawtooth signals
+* Fourier analysis and frequency spectra
+* Aliasing and sampling effects
+* Signal filtering and smoothing
+* Biosignal preprocessing pipelines
+* Pupil signal preprocessing and feature extraction
+* Baseline correction and interpolation
 
 ---
 
-## Chapter 1 Exercises
+## Current Experiments
 
-### Exercise 1.2 — Spectrum Analysis and Filtering
+### Waveform & Harmonic Analysis
 
-* Downloaded and analyzed real-world audio samples
-* Selected stable-pitch segments for spectral analysis
-* Explored the relationship between timbre and harmonic structure
-* Applied:
+* Signal generation using NumPy and SciPy
+* Harmonic structure comparison
+* Frequency-domain visualization
 
-  * high-pass filters
-  * low-pass filters
-  * band-stop filters
-* Reconstructed filtered signals and analyzed perceptual audio changes
+### Aliasing Experiments
 
-### Exercise 1.3 — Compound Signal Synthesis
+* Sampling high-frequency signals
+* Visualizing spectral distortion
+* Understanding Nyquist limitations
 
-* Generated compound signals using:
+### Pupil DSP Pipeline
 
-  * `SinSignal`
-  * `CosSignal`
-* Combined multiple frequency components
-* Computed and visualized frequency spectra
-* Explored the effects of non-harmonic frequency components on signal behavior
+A preprocessing workflow for simulated pupil diameter signals involving:
 
-### Exercise 1.4 — Time Stretching
-
-Implemented a lightweight `stretch()` function to:
-
-* speed up audio
-* slow down audio
-
-by modifying:
-
-* timestamps (`ts`)
-* frame rate (`framerate`)
+* Blink artifact removal
+* Missing value interpolation
+* Low-pass filtering
+* Baseline correction
+* Statistical feature extraction
 
 ---
 
-## Motivation
-
-Recently, I became interested in how signal processing connects to intelligent systems and behavioral AI.
-
-Research areas such as:
-
-* eye tracking
-* pupillometry
-* EEG analysis
-* physiological sensing
-* cognitive state estimation
-
-all rely heavily on signal representation and processing.
-
-This repository is part of my effort to build stronger foundations in DSP while exploring applications in machine learning and human-centered AI.
-
----
-
-## Tools & Libraries
+## Tech Stack
 
 * Python
 * NumPy
-* Matplotlib
 * SciPy
-* Google Colab
+* Matplotlib
+* Jupyter Notebook
 
 ---
 
-## Future Directions
+## Goal
 
-Planned future explorations include:
+The goal of this repository is to strengthen my foundations in:
 
-* Fourier Transform analysis
-* audio feature extraction
-* EEG signal processing
-* eye movement signal analysis
-* DSP for cognitive and biomedical AI systems
-* machine learning on time series data
+* DSP
+* Signal analysis
+* Computational modeling
+* Biosignal processing
+* Behavioral sensing systems
+
+while building intuition through experiments instead of only theory.
+
+---
+
+## Future Plans
+
+* FFT-based signal analysis
+* Real-time signal visualization
+* Audio signal experiments
+* Eye tracking signal analysis
+* Cognitive workload estimation experiments
+* Webcam-based behavioral sensing pipelines
+
